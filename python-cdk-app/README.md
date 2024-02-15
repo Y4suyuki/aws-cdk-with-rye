@@ -1,3 +1,9 @@
+# rye setup
+
+```bash
+rye init --requirements requirements.txt --dev-requirements requirements-dev.txt
+rye sync
+```
 
 # Welcome to your CDK Python project!
 
