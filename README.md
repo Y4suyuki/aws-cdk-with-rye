@@ -7,3 +7,9 @@ mkdir python-cdk-app
 cd python-cdk-app
 npx cdk init sample-app --language=python
 ```
+
+## CDK bootstraping
+
+```sh
+npx cdk bootstrap aws://${ACCOUNT_NUMBER}/${REGION}
+```
